@@ -6,16 +6,17 @@
 * This is an app that can be used as a text prediction application based based on input provided by user.
 * We have used language modelling algorithm that uses a corpus of english language as base for predictions.
 * The corpus is taken from the following three sources:
-- Blogs
-- News
-- Twitter
+ * **Blogs**
+ * **News**
+ * **Twitter**
+* The application location is [Text_Prediction](https://meavinash100.shinyapps.io/predictiveshinyapp/)
 
 ## Methodology
 * A random sample is taken from the corpus.
 * A combination of the following approaches is used in the app to provide suggestions:
-- Katz Backoff
-- Kneser Ney
-- Good Turing
+ * **Katz Backoff**
+ * **Kneser Ney**
+ * **Good Turing**
 * The mix of the above approaches is used to derive a relavance score.
 * Higher relevance score signifies higher accuracy of predictions.
 
