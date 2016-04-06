@@ -2,8 +2,8 @@ name: predictiveshinyapp
 account: meavinash100
 server: shinyapps.io
 appId: 91885
-bundleId: 409261
+bundleId: 412071
 url: https://meavinash100.shinyapps.io/predictiveshinyapp/
-when: 1459682732.49017
+when: 1459960367.64958
 asMultiple: FALSE
 asStatic: FALSE

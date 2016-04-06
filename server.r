@@ -36,7 +36,10 @@ shinyServer(
                 #Reactive function
                 mysentence <- reactive({
                   validate(
-                    need(input$userinput != "", "Please provide input sentence")
+                    need(input$userinput != "", 
+                         "Please provide input sentence"), 
+                    need(!grepl("^[[:digit:]]+$", input$userinput), 
+                         "Please provide text string")
                   )
                         as.character(input$userinput)
                 })

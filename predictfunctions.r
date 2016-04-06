@@ -144,7 +144,7 @@ weightlogic <- function(finalmatch){
         triweight <- 0.3
         biweight <- 0.1
         uniweight <- 0.05
-        for (counter in 1: length(finalmatch)){
+        for (counter in 1: nrow(finalmatch)){
                 len <- as.integer(0L)
                 len <- str_count(finalmatch$last[counter], pattern = " ")
                 len <- len + 1
