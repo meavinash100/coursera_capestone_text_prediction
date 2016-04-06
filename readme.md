@@ -3,7 +3,7 @@
 ### Author: Avinash Singh Pundhir
 
 ## Introduction
-* This is an app that can be used as a text prediction application based based on input provided by user.
+* This is an app that can be used as a text prediction application based on input provided by user.
 * We have used language modelling algorithm that uses a corpus of english language as base for predictions.
 * The corpus is taken from the following three sources:
  * **Blogs**
